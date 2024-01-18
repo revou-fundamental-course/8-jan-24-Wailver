@@ -1,6 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 }
+
 header {
     text-align: center;
 }
@@ -14,24 +15,30 @@ h1 {
     justify-content: space-around;
 }
 
-.input2{
+.input2 {
     display: flex;
     justify-content: space-around;
 }
 
-.side{
+.side {
     margin-top: 10px;
     outline: none;
     border-radius: 7px;
-    border: solid #48e6e6  ;
+    border: solid #48e6e6;
     padding: 10px;
 }
 
-#side:focus {
-    border: solid #021313 ;
+.side:focus {
+    border: solid #021313;
 }
 
-button {
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.button-container button {
     background-color: grey;
     color: black;
     border: none;
@@ -40,19 +47,19 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: rgb(170, 112, 112);
+.button-container button:hover {
+    background-color: rgb(184, 107, 107);
 }
 
-button:active {
+.button-container button:active {
     border-color: rgb(206, 166, 166);
-    transform: translateY(10px);
+    transform: translateY(1px);
 }
 
 img {
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: block;
 }
 
 .samping {
